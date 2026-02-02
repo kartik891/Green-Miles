@@ -2,8 +2,6 @@
 
 Green Miles is a full-stack web application that allows users to track rides, distance covered, and overall activity in a structured and secure way. The project focuses on implementing user authentication, protected routes, and a clean separation between frontend and backend logic.
 
-This project is built as a **learning and resume-oriented application**, with attention given to backend structure, authentication flow, and security-conscious design decisions.
-
 ---
 
 ## Project Overview
