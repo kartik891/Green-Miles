@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.outer-container {
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    align-items: center;
+    height: 100dvh;
+}
+
+.login-card{
+    width: 100%;
+    width: 20rem;
+    padding: 2rem;
+    height: auto;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.1);
+    border: .08rem solid hsl(0, 0%, 40%);
+    border-radius: .5rem;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.welcome{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.subtitle{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    color: hsl(0, 0%, 28%);
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+    line-height: 1;
+}
+
+input {
+    width: 100%;
+    height: 2.2rem;
+    padding: 0.25rem 0.5rem;
+    margin-bottom: 1.3rem;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+    line-height: 1.2;
+}
+
+
+.login-button{
+    width: 100%;
+    padding: 0.7rem;
+    background-color: hsl(0, 0%, 10%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: .3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login-button:hover{
+    background-color: hsl(0, 0%, 15%);
+}
+
+.login-button:active{
+    background-color: hsl(0, 0%, 5%);
+}
+
+.login-button:disabled{
+    background-color: hsl(0, 0%, 70%);
+    cursor: not-allowed;
+}
+
+.bike-image{
+    flex: 1;                    
+    max-width: 450px;           
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bike-image img{
+    width: 100%;
+    height: auto;
+}
+
+.password-container{
+    position: relative;
+}
+
+.password{
+    padding-right: 2.5rem;
+}
+
+.eye-icon{
+    position: absolute;
+    top: 30%;
+    right: 0.5rem;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: hsl(0, 0%, 50%);
+}
+
+.signup{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: hsl(0, 0%, 50%);
+}
+
+.signup-card{
+    width: 100%;
+    width: 25rem;
+    padding: 2rem;
+    height: fit-content;
+    margin: auto 0;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.1);
+    border: .08rem solid hsl(0, 0%, 40%);
+    border-radius: .5rem;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.error{
+    color: hsl(0, 100%, 50%);
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+

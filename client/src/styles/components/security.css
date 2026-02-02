@@ -1,0 +1,138 @@
+#security-container h2 {
+    font-size: 1.5rem;
+    color: hsl(113, 43%, 37%);
+    margin-bottom: 1.5rem;
+}
+
+#password-change {
+    margin-bottom: 1.5rem;
+}
+
+#change-toggle {
+    padding: 0.5rem 1rem;
+    background-color: hsl(106, 83%, 43%);
+    color: white;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+#change-toggle:hover {
+    background-color: hsl(106, 83%, 38%);
+}
+
+#logout-button-div {
+    margin-top: 1.3rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.logout-button {
+    padding: 0.5rem 1rem;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 5%);
+    border-radius: 5px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    border: 1px solid hsl(0, 0%, 80%);
+}
+
+.logout-button:hover {
+    background-color: hsl(0, 0%, 90%);
+}
+
+#logout-div h2 {
+    font-size: 1.5rem;
+    color: hsl(113, 43%, 37%);
+    margin-bottom: 1.5rem;
+}
+
+#delete-account {
+    padding-top: 2rem;
+}
+
+#delete-heading {
+    font-weight: 600;
+    color: hsl(0, 67%, 46%);
+    margin-bottom: 10px;
+}
+
+#delete-button {
+    padding: 0.5rem 1rem;
+    background-color: hsl(0, 67%, 46%);
+    color: white;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+#delete-button:hover {
+    background-color: hsl(0, 67%, 41%);
+}
+
+.error-message {
+    color: hsl(0, 67%, 46%);
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+}
+
+.success-message {
+    color: hsl(113, 43%, 37%);
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+}
+
+#password-div {
+    margin-top: 1.2rem;
+    padding: 1.2rem;
+}
+
+#password-div form {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+#password-div label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: hsl(113, 43%, 37%);
+}
+
+#password-div input {
+    padding: 1rem 1.1rem;
+    border-radius: 4px;
+    border: 1px solid hsl(113, 43%, 80%);
+    font-size: 1rem;
+    outline: none;
+}
+
+#password-div input:focus {
+    border-color: hsl(113, 43%, 37%);
+    box-shadow: 0 0 0 2px rgba(22, 163, 74, 0.15);
+}
+
+#sumit-button {
+    margin-top: .8rem;
+    background-color: hsl(113, 43%, 37%);
+    width: fit-content;
+    color: white;
+    border: none;
+    padding: .75rem 1.3rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#sumit-button:hover:not(:disabled) {
+    background-color: hsl(113, 43%, 32%);
+}
+
+#sumit-button:disabled {
+    background-color: #a7f3d0;
+    color: #065f46;
+    cursor: not-allowed;
+}

@@ -1,0 +1,55 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    padding: 0 2rem;
+    background-color: hsl(0, 0, 100%);
+}
+
+#left-side{
+    display: flex;
+    gap: 1.1rem;
+    align-items: center;
+}
+
+#left-side img{
+    height: 1.8rem;
+    width: auto;
+    cursor: pointer;
+}
+
+#left-side p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 10%);
+    cursor: pointer;
+}
+
+#right-side{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+#right-side img{
+    height: 1.5rem;
+    width: auto;
+    cursor: pointer;
+}
+
+#right-side p{
+    font-size: 1rem;
+    font-weight: 300;
+    color: hsl(0, 0%, 10%);
+    cursor: pointer;
+}
+
+#right-side p:hover, #left-side p:hover{
+    color: hsl(0, 0%, 10%);
+    text-decoration: underline;
+}
+#right-side img:hover, #left-side img:hover{
+    filter: brightness(0.8);
+}
+

@@ -1,0 +1,20 @@
+#profile-page{
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+}
+
+#user-info,
+#security{
+    background-color: hsl(0, 0%, 100%);
+    padding: 0 1.5rem;
+    margin: 2.5rem auto;
+}
+
+#user-info > *,
+#security > *{
+    margin-bottom: 1.5rem;
+}
+
+#security{
+    margin-top: 4rem;
+}
